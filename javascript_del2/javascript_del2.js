@@ -45,5 +45,13 @@ alert(typeof(u));
 alert(typeof(k));
 alert(typeof(l));
 
+var tekst = prompt ("skrive noget")
+console.log(typeof(tekst));
+
+var tekst2 = prompt ("skriv")
+var tekst3 = prompt ("")
+
+
+
 
 
