@@ -32,10 +32,11 @@ if(isNaN(prin)) {
     alert(prin + " is not a number");
 }
 
-let ax = prompt("skriv et tal");
-while(isNaN(ax)) {
-    ax = prompt("skriv et tal");
+var tal = prompt("skriv et tal");
+while(isNaN(tal)) {
+    tal = prompt("skriv et tal");
 }
+alert(tal + " er et tal");
 
 var u = 2;
 var k = "1";
@@ -43,6 +44,14 @@ var l = false;
 alert(typeof(u));
 alert(typeof(k));
 alert(typeof(l));
+
+var tekst = prompt ("skrive noget")
+console.log(typeof(tekst));
+
+var tekst2 = prompt ("skriv")
+var tekst3 = prompt ("")
+
+
 
 
 
